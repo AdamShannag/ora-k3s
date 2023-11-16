@@ -6,11 +6,11 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/AdamShannag/ora-kine/pkg/endpoint"
 	"github.com/k3s-io/k3s/pkg/clientaccess"
 	"github.com/k3s-io/k3s/pkg/cluster/managed"
 	"github.com/k3s-io/k3s/pkg/daemons/config"
 	"github.com/k3s-io/k3s/pkg/etcd"
-	"github.com/k3s-io/kine/pkg/endpoint"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	utilsnet "k8s.io/utils/net"

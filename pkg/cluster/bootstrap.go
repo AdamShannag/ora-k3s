@@ -14,6 +14,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/AdamShannag/ora-kine/pkg/client"
+	"github.com/AdamShannag/ora-kine/pkg/endpoint"
 	"github.com/go-test/deep"
 	"github.com/k3s-io/k3s/pkg/bootstrap"
 	"github.com/k3s-io/k3s/pkg/clientaccess"
@@ -21,8 +23,6 @@ import (
 	"github.com/k3s-io/k3s/pkg/etcd"
 	"github.com/k3s-io/k3s/pkg/util"
 	"github.com/k3s-io/k3s/pkg/version"
-	"github.com/k3s-io/kine/pkg/client"
-	"github.com/k3s-io/kine/pkg/endpoint"
 	"github.com/otiai10/copy"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

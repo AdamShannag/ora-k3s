@@ -18,6 +18,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/AdamShannag/ora-kine/pkg/client"
+	endpoint2 "github.com/AdamShannag/ora-kine/pkg/endpoint"
 	"github.com/google/uuid"
 	"github.com/gorilla/mux"
 	"github.com/k3s-io/k3s/pkg/clientaccess"
@@ -27,8 +29,6 @@ import (
 	"github.com/k3s-io/k3s/pkg/daemons/executor"
 	"github.com/k3s-io/k3s/pkg/util"
 	"github.com/k3s-io/k3s/pkg/version"
-	"github.com/k3s-io/kine/pkg/client"
-	endpoint2 "github.com/k3s-io/kine/pkg/endpoint"
 	cp "github.com/otiai10/copy"
 	"github.com/pkg/errors"
 	certutil "github.com/rancher/dynamiclistener/cert"
