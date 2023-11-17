@@ -86,7 +86,7 @@ replace (
 )
 
 require (
-	github.com/AdamShannag/ora-kine v0.0.3
+	github.com/AdamShannag/ora-kine v0.0.4
 	github.com/Microsoft/hcsshim v0.11.1
 	github.com/Mirantis/cri-dockerd v0.0.0-00010101000000-000000000000
 	github.com/blang/semver/v4 v4.0.0
